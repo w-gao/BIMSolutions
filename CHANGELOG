@@ -1,0 +1,19 @@
+Change Log
+---------------
+Pre-alpha:
+v0.1    -  Basic functionality
+           FXML v0.1 initial update
+
+v0.2    -  FXML update, better styling
+           Bug tweaks
+
+v0.3    (7/5/17)
+        - Import Gson, load sources as Json objects instead of XML
+          FXML v0.3 update, add previous & next exercise button
+
+v0.3.1  (9/5/17)
+        - Import log4j, better logging
+          Controller & API cleanup
+          Reduce memory: only load what's needed
+          Code comments
+          Add warning when there is no internet connection

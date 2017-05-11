@@ -1,0 +1,89 @@
+/** ------------------------------------
+ * BIMSolutions Project
+ * styles.css
+ * 
+ * @author w.gao Copyright (c) 2017
+ * @version 0.2
+ ------------------------------------ */
+
+ /* Top nav */
+#top_nav {
+	-fx-background-color: #4eb5db;
+}
+
+/* Body Container */
+#container {
+	-fx-border-color: #07bdff;
+}
+
+/* Button */
+.button {
+	-fx-background-color: linear-gradient(#8bdcf9, #95def9);
+	-fx-background-radius: 0;
+}
+
+.button:hover,
+.button:pressed {
+	-fx-background-color: #00EEEE;
+	-fx-background-radius: 0;
+}
+
+/* Combo Box */
+.combo-box {
+	-fx-background-radius: 0;
+	-fx-background-color: #a2d5e8;
+}
+
+/* Choice Box */
+.choice-box {
+	-fx-background-radius: 0;
+	-fx-background-color: #a3e6ff;
+}
+
+
+/* Scroll bar */
+.scroll-bar:horizontal ,
+.scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button , .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color:derive(gray,80%);
+    -fx-background-radius: 2em;
+    -fx-border-radius:2em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color:rgba(0,0,0,0.23333333);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:horizontal .thumb:pressed,
+.scroll-bar:vertical .thumb:pressed {
+     -fx-background-color: derive(#434343,5%);
+     -fx-opacity: 0.2;
+     -fx-background-radius: 2em;
+}
+
+/* Scroll Pane */
+.scroll-pane,
+.scroll-pane:pressed {
+    -fx-background-color: transparent;
+}
+
+
+/* Text Field */
+.text-field {
+	-fx-border-radius: 2;
+}

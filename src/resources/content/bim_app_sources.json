@@ -1,0 +1,86 @@
+[
+    {
+        "_name": "Common Core High School",
+        "_code": "cchs",
+        "book": [
+            {
+                "_title": "Algebra 1 CC",
+                "_authors": "by Ron Larson, Laurie Boswell",
+                "_sol_source": "bim_cchs_alg1.json"
+            },
+            {
+                "_title": "Geometry CC",
+                "_authors": "by Ron Larson, Laurie Boswell",
+                "_sol_source": "bim_cchs_geo.json"
+            },
+            {
+                "_title": "Algebra 2 CC",
+                "_authors": "by Ron Larson, Laurie Boswell",
+                "_sol_source": "bim_cchs_alg2.json"
+            }
+        ]
+    },
+    {
+        "_name": "Texas High School",
+        "_code": "texas",
+        "book": [
+            {
+                "_title": "Algebra 1 TX",
+                "_authors": "by Ron Larson, Laurie Boswell",
+                "_sol_source": "bim_texas_alg1.json"
+            },
+            {
+                "_title": "Geometry TX",
+                "_authors": "by Ron Larson, Laurie Boswell",
+                "_sol_source": "bim_texas_geo.json"
+            },
+            {
+                "_title": "Algebra 2 TX",
+                "_authors": "by Ron Larson, Laurie Boswell",
+                "_sol_source": "bim_texas_alg2.json"
+            }
+        ]
+    },
+    {
+        "_name": "Bridge to Success",
+        "_code": "btshs",
+        "book": [
+            {
+                "_title": "Algebra 1 BTS",
+                "_authors": "by Ron Larson, Laurie Boswell",
+                "_sol_source": "bim_btshs_alg1.json"
+            },
+            {
+                "_title": "Geometry BTS",
+                "_authors": "by Ron Larson, Laurie Boswell",
+                "_sol_source": "bim_btshs_geo.json"
+            },
+            {
+                "_title": "Algebra 2 BTS",
+                "_authors": "by Ron Larson, Laurie Boswell",
+                "_sol_source": "bim_btshs_alg2.json"
+            }
+        ]
+    },
+    {
+        "_name": "Integrated Mathematics",
+        "_code": "int",
+        "book": [
+            {
+                "_title": "Math I",
+                "_authors": "by Ron Larson, Laurie Boswell",
+                "_sol_source": "bim_int_math1.json"
+            },
+            {
+                "_title": "Math II",
+                "_authors": "by Ron Larson, Laurie Boswell",
+                "_sol_source": "bim_int_math2.json"
+            },
+            {
+                "_title": "Math III",
+                "_authors": "by Ron Larson, Laurie Boswell",
+                "_sol_source": "bim_int_math3.json"
+            }
+        ]
+    }
+]

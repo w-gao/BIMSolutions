@@ -1,0 +1,403 @@
+{
+  "_title": "Geometry",
+  "_program": "Common Core High School",
+  "_thumbnail": "https://16b27497582530acb68f-9b9f9c8a84107e8538666b7e36309431.r25.cf2.rackcdn.com/book_covers/hs_cvr_geo_pe.jpg",
+  "_solution_base": "https://static.bigideasmath.com/protected/content/dc_cc_hs/apt/images/geo/",
+  "chapter": [
+    {
+      "_name": "1",
+      "section": [
+        {
+          "_name": "1",
+          "_num_ex": "72",
+          "_prefix": "s_geo_ex_01_01"
+        },
+        {
+          "_name": "2",
+          "_num_ex": "45",
+          "_prefix": "s_geo_ex_01_02"
+        },
+        {
+          "_name": "3",
+          "_num_ex": "53",
+          "_prefix": "s_geo_ex_01_03"
+        },
+        {
+          "_name": "4",
+          "_num_ex": "44",
+          "_prefix": "s_geo_ex_01_04"
+        },
+        {
+          "_name": "5",
+          "_num_ex": "65",
+          "_prefix": "s_geo_ex_01_05"
+        },
+        {
+          "_name": "6",
+          "_num_ex": "59",
+          "_prefix": "s_geo_ex_01_06"
+        }
+      ]
+    },
+    {
+      "_name": "2",
+      "section": [
+        {
+          "_name": "1",
+          "_num_ex": "69",
+          "_prefix": "s_geo_ex_02_01"
+        },
+        {
+          "_name": "2",
+          "_num_ex": "50",
+          "_prefix": "s_geo_ex_02_02"
+        },
+        {
+          "_name": "3",
+          "_num_ex": "38",
+          "_prefix": "s_geo_ex_02_03"
+        },
+        {
+          "_name": "4",
+          "_num_ex": "60",
+          "_prefix": "s_geo_ex_02_04"
+        },
+        {
+          "_name": "5",
+          "_num_ex": "26",
+          "_prefix": "s_geo_ex_02_05"
+        },
+        {
+          "_name": "6",
+          "_num_ex": "36",
+          "_prefix": "s_geo_ex_02_06"
+        }
+      ]
+    },
+    {
+      "_name": "3",
+      "section": [
+        {
+          "_name": "1",
+          "_num_ex": "31",
+          "_prefix": "s_geo_ex_03_01"
+        },
+        {
+          "_name": "2",
+          "_num_ex": "28",
+          "_prefix": "s_geo_ex_03_02"
+        },
+        {
+          "_name": "3",
+          "_num_ex": "44",
+          "_prefix": "s_geo_ex_03_03"
+        },
+        {
+          "_name": "4",
+          "_num_ex": "41",
+          "_prefix": "s_geo_ex_03_04"
+        },
+        {
+          "_name": "5",
+          "_num_ex": "57",
+          "_prefix": "s_geo_ex_03_05"
+        }
+      ]
+    },
+    {
+      "_name": "4",
+      "section": [
+        {
+          "_name": "1",
+          "_num_ex": "50",
+          "_prefix": "s_geo_ex_04_01"
+        },
+        {
+          "_name": "2",
+          "_num_ex": "49",
+          "_prefix": "s_geo_ex_04_02"
+        },
+        {
+          "_name": "3",
+          "_num_ex": "41",
+          "_prefix": "s_geo_ex_04_03"
+        },
+        {
+          "_name": "4",
+          "_num_ex": "43",
+          "_prefix": "s_geo_ex_04_04"
+        },
+        {
+          "_name": "5",
+          "_num_ex": "57",
+          "_prefix": "s_geo_ex_04_05"
+        },
+        {
+          "_name": "6",
+          "_num_ex": "26",
+          "_prefix": "s_geo_ex_04_06"
+        }
+      ]
+    },
+    {
+      "_name": "5",
+      "section": [
+        {
+          "_name": "1",
+          "_num_ex": "57",
+          "_prefix": "s_geo_ex_05_01"
+        },
+        {
+          "_name": "2",
+          "_num_ex": "29",
+          "_prefix": "s_geo_ex_05_02"
+        },
+        {
+          "_name": "3",
+          "_num_ex": "35",
+          "_prefix": "s_geo_ex_05_03"
+        },
+        {
+          "_name": "4",
+          "_num_ex": "44",
+          "_prefix": "s_geo_ex_05_04"
+        },
+        {
+          "_name": "5",
+          "_num_ex": "40",
+          "_prefix": "s_geo_ex_05_05"
+        },
+        {
+          "_name": "6",
+          "_num_ex": "38",
+          "_prefix": "s_geo_ex_05_06"
+        },
+        {
+          "_name": "7",
+          "_num_ex": "25",
+          "_prefix": "s_geo_ex_05_07"
+        },
+        {
+          "_name": "8",
+          "_num_ex": "29",
+          "_prefix": "s_geo_ex_05_08"
+        }
+      ]
+    },
+    {
+      "_name": "6",
+      "section": [
+        {
+          "_name": "1",
+          "_num_ex": "44",
+          "_prefix": "s_geo_ex_06_01"
+        },
+        {
+          "_name": "2",
+          "_num_ex": "59",
+          "_prefix": "s_geo_ex_06_02"
+        },
+        {
+          "_name": "3",
+          "_num_ex": "58",
+          "_prefix": "s_geo_ex_06_03"
+        },
+        {
+          "_name": "4",
+          "_num_ex": "29",
+          "_prefix": "s_geo_ex_06_04"
+        },
+        {
+          "_name": "5",
+          "_num_ex": "53",
+          "_prefix": "s_geo_ex_06_05"
+        },
+        {
+          "_name": "6",
+          "_num_ex": "28",
+          "_prefix": "s_geo_ex_06_06"
+        }
+      ]
+    },
+    {
+      "_name": "7",
+      "section": [
+        {
+          "_name": "1",
+          "_num_ex": "56",
+          "_prefix": "s_geo_ex_07_01"
+        },
+        {
+          "_name": "2",
+          "_num_ex": "50",
+          "_prefix": "s_geo_ex_07_02"
+        },
+        {
+          "_name": "3",
+          "_num_ex": "54",
+          "_prefix": "s_geo_ex_07_03"
+        },
+        {
+          "_name": "4",
+          "_num_ex": "91",
+          "_prefix": "s_geo_ex_07_04"
+        },
+        {
+          "_name": "5",
+          "_num_ex": "54",
+          "_prefix": "s_geo_ex_07_05"
+        }
+      ]
+    },
+    {
+      "_name": "8",
+      "section": [
+        {
+          "_name": "1",
+          "_num_ex": "60",
+          "_prefix": "s_geo_ex_08_01"
+        },
+        {
+          "_name": "2",
+          "_num_ex": "36",
+          "_prefix": "s_geo_ex_08_02"
+        },
+        {
+          "_name": "3",
+          "_num_ex": "45",
+          "_prefix": "s_geo_ex_08_03"
+        },
+        {
+          "_name": "4",
+          "_num_ex": "45",
+          "_prefix": "s_geo_ex_08_04"
+        }
+      ]
+    },
+    {
+      "_name": "9",
+      "section": [
+        {
+          "_name": "1",
+          "_num_ex": "47",
+          "_prefix": "s_geo_ex_09_01"
+        },
+        {
+          "_name": "2",
+          "_num_ex": "27",
+          "_prefix": "s_geo_ex_09_02"
+        },
+        {
+          "_name": "3",
+          "_num_ex": "49",
+          "_prefix": "s_geo_ex_09_03"
+        },
+        {
+          "_name": "4",
+          "_num_ex": "29",
+          "_prefix": "s_geo_ex_09_04"
+        },
+        {
+          "_name": "5",
+          "_num_ex": "44",
+          "_prefix": "s_geo_ex_09_05"
+        },
+        {
+          "_name": "6",
+          "_num_ex": "36",
+          "_prefix": "s_geo_ex_09_06"
+        },
+        {
+          "_name": "7",
+          "_num_ex": "56",
+          "_prefix": "s_geo_ex_09_07"
+        }
+      ]
+    },
+    {
+      "_name": "10",
+      "section": [
+        {
+          "_name": "1",
+          "_num_ex": "50",
+          "_prefix": "s_geo_ex_10_01"
+        },
+        {
+          "_name": "2",
+          "_num_ex": "42",
+          "_prefix": "s_geo_ex_10_02"
+        },
+        {
+          "_name": "3",
+          "_num_ex": "28",
+          "_prefix": "s_geo_ex_10_03"
+        },
+        {
+          "_name": "4",
+          "_num_ex": "45",
+          "_prefix": "s_geo_ex_10_04"
+        },
+        {
+          "_name": "5",
+          "_num_ex": "43",
+          "_prefix": "s_geo_ex_10_05"
+        },
+        {
+          "_name": "6",
+          "_num_ex": "29",
+          "_prefix": "s_geo_ex_10_06"
+        },
+        {
+          "_name": "7",
+          "_num_ex": "39",
+          "_prefix": "s_geo_ex_10_07"
+        }
+      ]
+    },
+    {
+      "_name": "11",
+      "section": [
+        {
+          "_name": "1",
+          "_num_ex": "44",
+          "_prefix": "s_geo_ex_11_01"
+        },
+        {
+          "_name": "2",
+          "_num_ex": "45",
+          "_prefix": "s_geo_ex_11_02"
+        },
+        {
+          "_name": "3",
+          "_num_ex": "56",
+          "_prefix": "s_geo_ex_11_03"
+        },
+        {
+          "_name": "4",
+          "_num_ex": "39",
+          "_prefix": "s_geo_ex_11_04"
+        },
+        {
+          "_name": "5",
+          "_num_ex": "57",
+          "_prefix": "s_geo_ex_11_05"
+        },
+        {
+          "_name": "6",
+          "_num_ex": "29",
+          "_prefix": "s_geo_ex_11_06"
+        },
+        {
+          "_name": "7",
+          "_num_ex": "30",
+          "_prefix": "s_geo_ex_11_07"
+        },
+        {
+          "_name": "8",
+          "_num_ex": "51",
+          "_prefix": "s_geo_ex_11_08"
+        }
+      ]
+    }
+  ]
+}

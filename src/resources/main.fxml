@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- __WilSolutions__ fxml v0.3 -->
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox minHeight="450.0" minWidth="675.0" prefHeight="500.0" prefWidth="675.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.github.wgao.wilsolutions.Controller">
+   <children>
+   
+       <HBox id="top_nav" prefHeight="50.0" prefWidth="675.0">
+      <children>
+              <ImageView fitHeight="50.0" fitWidth="300.0" pickOnBounds="true">
+                 <image>
+                     <Image url="@-logo.png" />
+                 </image>
+              </ImageView>
+      </children>
+       </HBox>
+       <AnchorPane prefHeight="435.0" prefWidth="635.0" VBox.vgrow="ALWAYS">
+           <VBox.margin>
+               <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+           </VBox.margin>
+          <children>
+              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="635.0" spacing="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                 <children>
+                     <ComboBox fx:id="programChoiceBox" onAction="#programSelected" prefHeight="26.0" prefWidth="200.0" promptText="Select Your Program" />
+                     <ComboBox fx:id="bookChoiceBox" onAction="#bookSelected" prefHeight="25.0" prefWidth="200.0" promptText="Select Your Book" />
+                 </children>
+              </HBox>
+              <HBox alignment="CENTER" layoutY="60.0" prefHeight="60.0" prefWidth="635.0" spacing="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
+                 <children>
+                  <TextField fx:id="chapterInput" prefHeight="25.0" prefWidth="100.0" promptText="Chapter" />
+                  <TextField fx:id="sectionInput" prefHeight="25.0" prefWidth="100.0" promptText="Section" />
+                  <TextField fx:id="exerciseInput" prefHeight="25.0" prefWidth="100.0" promptText="Exercise" />
+                     <Button fx:id="viewButton" defaultButton="true" mnemonicParsing="false" onAction="#viewButtonClicked" prefHeight="30.0" prefWidth="120.0" text="View" />
+                  <HBox prefHeight="44.0" prefWidth="79.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#prvExercise" onKeyPressed="#keyPressed" prefHeight="25.0" prefWidth="30.0" text="&lt;">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#nxtExercise" onKeyPressed="#keyPressed" prefHeight="25.0" prefWidth="30.0" text="&gt;">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="8.0" top="8.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </padding>
+                  </HBox>
+                 </children>
+              </HBox>
+              <VBox id="container" alignment="TOP_CENTER" layoutY="120.0" prefHeight="305.0" prefWidth="625.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="120.0">
+                 <children>
+                     <Label prefHeight="25.0" prefWidth="80.0" text="Answer:">
+                         <font>
+                             <Font size="17.0" />
+                         </font>
+                     </Label>
+                  <ScrollPane prefHeight="280.0" prefWidth="623.0" VBox.vgrow="ALWAYS">
+                     <content>
+                           <ImageView fx:id="answerDisplay" pickOnBounds="true" smooth="false">
+                               <viewport>
+                                   <Rectangle2D />
+                               </viewport>
+                           </ImageView>
+                     </content>
+                     <rotationAxis>
+                        <Point3D />
+                     </rotationAxis>
+                  </ScrollPane>
+                 </children>
+              </VBox>
+          </children>
+       </AnchorPane>
+   </children>
+</VBox>
