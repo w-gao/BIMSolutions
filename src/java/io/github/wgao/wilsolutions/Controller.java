@@ -15,6 +15,12 @@ import org.apache.logging.log4j.Logger;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/**
+ * BIMSolutions
+ *
+ * @author w.gao Copyright (c) 2017
+ * @version 1.0
+ */
 public class Controller implements Initializable {
 
     private static Logger Log = LogManager.getLogger(Controller.class);

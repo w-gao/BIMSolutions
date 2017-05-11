@@ -45,18 +45,18 @@ public class BIMAPI {
      */
     public String[] getPrograms(){
         String[] programs = new String[this.programs.size()];
-		int i =  0;
-        
-		for(BIMJProgramInfo info : this.programs){
+        int i =  0;
+
+        for(BIMJProgramInfo info : this.programs){
             programs[i] = info.getName();
             i++;
-		}
+        }
         return programs;
     }
 
     /**
      * get a list of textbook names by the program name provided
-     * as the parameter 'program' If the program does not exist,
+     * as the parameter 'program'. If the program does not exist,
      * null return value would result.
      *
      * @param program the program name
