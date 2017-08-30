@@ -12,8 +12,10 @@ v0.3    (7/5/17)
           FXML v0.3 update, add previous & next exercise button
 
 v0.3.1  (9/5/17)
-        - Import log4j, better logging
           Controller & API cleanup
           Reduce memory: only load what's needed
           Code comments
           Add warning when there is no internet connection
+
+v0.3.2 (8/29/17)
+          Clean up code

@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox minHeight="450.0" minWidth="675.0" prefHeight="500.0" prefWidth="675.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.github.wgao.wilsolutions.Controller">
+<VBox minHeight="450.0" minWidth="675.0" prefHeight="500.0" prefWidth="675.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="space.wgao.wilsolutions.Controller">
    <children>
    
        <HBox id="top_nav" prefHeight="50.0" prefWidth="675.0">

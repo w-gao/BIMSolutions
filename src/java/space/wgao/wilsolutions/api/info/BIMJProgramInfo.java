@@ -1,4 +1,4 @@
-package io.github.wgao.wilsolutions.api.info;
+package space.wgao.wilsolutions.api.info;
 
 import java.util.Arrays;
 

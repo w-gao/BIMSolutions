@@ -1,10 +1,10 @@
-package io.github.wgao.wilsolutions.api;
+package space.wgao.wilsolutions.api;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import io.github.wgao.wilsolutions.WilSolutions;
-import io.github.wgao.wilsolutions.api.data.BIMJBook;
-import io.github.wgao.wilsolutions.api.info.BIMJProgramInfo;
+import space.wgao.wilsolutions.WilSolutions;
+import space.wgao.wilsolutions.api.data.BIMJBook;
+import space.wgao.wilsolutions.api.info.BIMJProgramInfo;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

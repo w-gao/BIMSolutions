@@ -1,4 +1,4 @@
-package io.github.wgao.wilsolutions.api.data;
+package space.wgao.wilsolutions.api.data;
 
 /**
  * BIMSolutions

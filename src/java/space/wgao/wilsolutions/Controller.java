@@ -1,7 +1,7 @@
-package io.github.wgao.wilsolutions;
+package space.wgao.wilsolutions;
 
-import io.github.wgao.wilsolutions.api.BIMAPI;
-import io.github.wgao.wilsolutions.api.data.BIMJBook;
+import space.wgao.wilsolutions.api.BIMAPI;
+import space.wgao.wilsolutions.api.data.BIMJBook;
 import javafx.collections.FXCollections;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -9,8 +9,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -22,8 +20,6 @@ import java.util.ResourceBundle;
  * @version 1.0
  */
 public class Controller implements Initializable {
-
-    private static Logger Log = LogManager.getLogger(Controller.class);
 
     public ComboBox<String> programChoiceBox;
 
@@ -61,7 +57,7 @@ public class Controller implements Initializable {
 
         programChoiceBox.setItems(FXCollections.observableArrayList(this.api.getPrograms()));
 
-        Log.info("View is now loaded!");
+        System.out.println("View is now loaded!");
     }
 
     private void initControls(){
@@ -117,7 +113,6 @@ public class Controller implements Initializable {
      * check the validation of the input & display the answer.
      */
     public void viewButtonClicked(){
-        Log.debug("View!");
 
         if(!checkInput()) return;
 
@@ -133,23 +128,21 @@ public class Controller implements Initializable {
         String awrUrl = textbook.getExercise(chp, sec, exc);
 
         if(awrUrl == null){
-            Log.warn("Invalid request.");
+            System.out.println("Invalid request.");
             answerDisplay.setImage(new Image("/invalid.png"));
             return;
         }
 
         if(awrUrl.equals(prvUrl)){
-            Log.warn("Please do not harm the program.");
+            System.out.println("Please do not harm the program.");
             return;
         }
-
-        Log.debug(awrUrl);
         prvUrl = awrUrl;
 
         Image img = new Image(awrUrl, false);
 
         if(img.isError()){
-            Log.warn("Unable to connect to the hosting server.. Please check your internet connection.");
+            System.out.println("Unable to connect to the hosting server.. Please check your internet connection.");
             answerDisplay.setImage(new Image("/failed.png"));
             return;
         }

@@ -1,4 +1,4 @@
-package io.github.wgao.wilsolutions;
+package space.wgao.wilsolutions;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,9 +6,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.net.URL;
@@ -21,8 +18,6 @@ import java.net.URL;
  */
 public class WilSolutions extends Application {
 
-    private static Logger Log = LogManager.getLogger(WilSolutions.class);
-
     private static WilSolutions instance;
 
     private Stage window;
@@ -33,15 +28,6 @@ public class WilSolutions extends Application {
      * @param args arguments
      */
     public static void main(String[] args) {
-
-        if(Log.getLevel() == Level.DEBUG){
-            Log.info("**************************************");
-            Log.info(" Program is running in debug mode!");
-            Log.info(" PLEASE DO NOT RUN IN PRODUCTION.");
-            Log.info("**************************************");
-        }else if(Log.getLevel() == Level.INFO){
-            Log.info(" Program is running in production mode. No debug information will be displayed.");
-        }
 
         launch(args);
     }
@@ -57,8 +43,8 @@ public class WilSolutions extends Application {
 
         URL loc = this.getClass().getClassLoader().getResource("main.fxml");
         if(loc == null){
-            Log.error("Cannot find resource main.fxml.");
-            Log.error("Exiting...");
+            System.out.println("Cannot find resource main.fxml.");
+            System.out.println("Exiting...");
             return;
         }
 
@@ -88,7 +74,7 @@ public class WilSolutions extends Application {
     private void closeProgram() {
         this.window.close();
 
-        Log.info(Log.getLevel() == Level.DEBUG ? "Peace out! D:" : "Program closed successfully.");
+        System.out.println("Peace out! D:");
     }
 
     public static WilSolutions getInstance(){
