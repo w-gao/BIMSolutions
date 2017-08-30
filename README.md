@@ -1,14 +1,14 @@
 # BIMSolutions
 
-![logo](https://github.com/w-gao/BIMSolutions/tree/master/images/logo.png)
+![logo](https://github.com/w-gao/BIMSolutions/blob/master/images/logo.png)
 
 ## Introduction
 ------------
 BIMSolutions is a Java software that allows you to view the full BIM Textbook Solutions.
 
-![ss-1](https://github.com/w-gao/BIMSolutions/tree/master/images/ss-1.png)
+![ss-1](https://github.com/w-gao/BIMSolutions/blob/master/images/ss-1.png)
 
-![ss-2](https://github.com/w-gao/BIMSolutions/tree/master/images/ss-2.png)
+![ss-2](https://github.com/w-gao/BIMSolutions/blob/master/images/ss-2.png)
 
 ## Install
 -------
